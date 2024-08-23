@@ -34,7 +34,8 @@ Image Captioning Model: blip-image-captioning-large
 
 Sentiment Analysis Model: twitter-roberta-base-sentiment
 
-You can download these models from the Hugging Face Model Hub or another source and place them in the appropriate directories.You follow thw steps in the file "load and save model" for downloding models.
+You can download these models from the Hugging Face Model Hub or another source and place them in the appropriate directories.
+**You follow the steps in the file "load and save model" for downloding models.**
 
 3. **Update Model Directories**
 
