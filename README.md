@@ -1,4 +1,4 @@
-# Image Captioning and Sentiment Analysis Web Application
+# Artwork emotion analyzer
 
 This Flask web application generates captions for images and analyzes the sentiment of those captions using pre-trained models from Hugging Face. The application takes an image URL as input, generates a descriptive caption for the image, and then determines the emotional tone of the caption.
 
@@ -23,48 +23,49 @@ This Flask web application generates captions for images and analyzes the sentim
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/fayaz2410/Artwork-analyzer.git
-   cd Artwork-analyzer
+   git clone git clone -b master https://github.com/fayaz2410/Artwork-emotion-analyzer.git
+
+   cd Artwork-emotion-analyzer
 
 2. **Download Pre-trained Models**
 
-The application uses pre-trained models for image captioning and sentiment analysis, which are loaded locally. Download and save the models in the following directories:
+ The application uses pre-trained models for image captioning and sentiment analysis, which are loaded locally. Download and save the models in the following directories:
 
-Image Captioning Model: blip-image-captioning-large
+ Image Captioning Model: blip-image-captioning-large
 
-Sentiment Analysis Model: twitter-roberta-base-sentiment
+ Sentiment Analysis Model: twitter-roberta-base-sentiment
 
-You can download these models from the Hugging Face Model Hub or another source and place them in the appropriate directories.
-**You follow the steps in the file "load and save model" for downloding models.**
+ You can download these models from the Hugging Face Model Hub or another source and place them in the appropriate directories.
+ **You follow the steps in the file "load and save model" for downloding models.**
 
 3. **Update Model Directories**
 
-Modify the captioning_model_directory and sentiment_model_directory paths in app.py to point to the local directories where the models are saved.
+  Modify the captioning_model_directory and sentiment_model_directory paths in app.py to point to the local directories where the models are saved.
 
 4. **Run the Application**
 
-Start the Flask server by running:
+ Start the Flask server by running:
+        
+       python app.py
 
-python app.py
-
-The application will be accessible at http://localhost:5000 by default.
+ The application will be accessible at http://localhost:5000 by default.
 
 5. **Usage**
    
-Open your web browser and go to http://localhost:5000.
+ Open your web browser and go to http://localhost:5000.
 
-Enter the URL of the image you want to analyze.
+ Enter the URL of the image you want to analyze.
 
-Submit the form to get a caption for the image and the sentiment of the caption.
+ Submit the form to get a caption for the image and the sentiment of the caption.
 
 7. **Files**
    
-app.py: The main Flask application script.
+ app.py: The main Flask application script.
 
-templates/index.html: The HTML template for the web interface.
+ templates/index.html: The HTML template for the web interface.
 
 8. **Contributing**
-Feel free to fork the repository, make changes, and submit pull requests. Contributions and suggestions are welcome!
+ Feel free to fork the repository, make changes, and submit pull requests. Contributions and suggestions are welcome!
 
 **Acknowledgements**
-The transformers library by Hugging Face for pre-trained models.
+ The transformers library by Hugging Face for pre-trained models.
