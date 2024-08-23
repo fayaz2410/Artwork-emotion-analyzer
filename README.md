@@ -23,7 +23,7 @@ This Flask web application generates captions for images and analyzes the sentim
 1. **Clone the Repository**
 
    ```bash
-   git clone git clone -b master https://github.com/fayaz2410/Artwork-emotion-analyzer.git
+   git clone -b master https://github.com/fayaz2410/Artwork-emotion-analyzer.git
 
    cd Artwork-emotion-analyzer
 
